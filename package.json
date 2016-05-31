@@ -1,0 +1,40 @@
+{
+  "name": "file-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js | bunyan",
+    "start:prod": "NODE_ENV=production node --harmony index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.captain.bengjiujie.com:1022/backend/file-services.git"
+  },
+  "dependencies": {
+    "babel": "^5.8.27",
+    "body-parser": "^1.13.3",
+    "bunyan": "^1.5.1",
+    "co-fs": "^1.2.0",
+    "co-fs-extra": "^1.1.0",
+    "co-monk": "^1.0.0",
+    "compression": "^1.5.2",
+    "express": "^4.13.3",
+    "formidable": "^1.0.17",
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-cors": "0.0.16",
+    "koa-formidable": "^1.0.0",
+    "koa-router": "^5.2.3",
+    "memoizee": "^0.3.9",
+    "memoizee-newrelic": "^0.2.3",
+    "mongodb": "^2.0.48",
+    "monk": "^1.0.1",
+    "newrelic": "^1.24.0"
+  },
+  "author": "voc",
+  "license": "ISC",
+  "devDependencies": {
+    "flightplan": "^0.6.6"
+  }
+}
